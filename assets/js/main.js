@@ -122,6 +122,7 @@ function handle_buyOrder() {
   update();
 }
 
+
 function updateTotal() {
   let cartBoxes = document.querySelectorAll(".cart-box");
   const totalElement = cart.querySelector(".total-price");
